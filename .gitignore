@@ -1,0 +1,15 @@
+# env files (secrets)
+.env
+.env*.local
+!.env.local.example
+
+# deps and build output
+node_modules/
+.next/
+out/
+.vercel/
+
+# misc
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
